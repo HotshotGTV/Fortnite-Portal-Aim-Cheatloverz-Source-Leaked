@@ -1,0 +1,42 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1088,5): warning MSB8027: Two or more files with the name of CRC32.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Fortnite\CRC32.cpp, Valve\CRC32.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1088,5): warning MSB8027: Two or more files with the name of MathFunctions.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Fortnite\MathFunctions.cpp, Valve\MathFunctions.cpp.
+  Controls.cpp
+D:\Cheatloverz\Cheatloverz\SDK.h(11,10): fatal error C1083: Cannot open include file: 'Fortnite/bspflags.h': No such file or directory
+  DLLMain.cpp
+D:\Cheatloverz\Cheatloverz\SDK.h(11,10): fatal error C1083: Cannot open include file: 'Fortnite/bspflags.h': No such file or directory
+  EngineClient.cpp
+D:\Cheatloverz\Cheatloverz\SDK.h(11,10): fatal error C1083: Cannot open include file: 'Fortnite/bspflags.h': No such file or directory
+  CRC32.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Fortnite\CRC32.cpp': No such file or directory
+  MathFunctions.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Fortnite\MathFunctions.cpp': No such file or directory
+  GUI.cpp
+D:\Cheatloverz\Cheatloverz\SDK.h(11,10): fatal error C1083: Cannot open include file: 'Fortnite/bspflags.h': No such file or directory
+  MD5.cpp
+  NetVars.cpp
+D:\Cheatloverz\Cheatloverz\NetVars.cpp(5,10): fatal error C1083: Cannot open include file: 'Fortnite/ClientRecvProps.h': No such file or directory
+  Render.cpp
+D:\Cheatloverz\Cheatloverz\SDK.h(11,10): fatal error C1083: Cannot open include file: 'Fortnite/bspflags.h': No such file or directory
+  tinyxml2.cpp
+  Utilities.cpp
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(88,60): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(88,60): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(123,80): warning C4312: 'type cast': conversion from 'DWORD' to 'HMODULE' of greater size
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(128,6): warning C4312: 'type cast': conversion from 'unsigned long' to 'BYTE *' of greater size
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(139,80): warning C4312: 'type cast': conversion from 'DWORD' to 'HMODULE' of greater size
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(143,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(153,6): warning C4312: 'type cast': conversion from 'unsigned long' to 'BYTE *' of greater size
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(165,52): warning C4312: 'type cast': conversion from 'DWORD' to 'FARPROC' of greater size
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(167,6): warning C4312: 'type cast': conversion from 'DWORD' to 'FARPROC' of greater size
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(172,14): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(178,42): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(186,39): warning C4311: 'type cast': pointer truncation from 'DWORD *' to 'DWORD'
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(186,39): warning C4302: 'type cast': truncation from 'DWORD *' to 'DWORD'
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(216,34): warning C4311: 'type cast': pointer truncation from 'DWORD *' to 'DWORD'
+D:\Cheatloverz\Cheatloverz\Utilities.cpp(216,34): warning C4302: 'type cast': truncation from 'DWORD *' to 'DWORD'
+  CRC32.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Valve\CRC32.cpp': No such file or directory
+  MathFunctions.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Valve\MathFunctions.cpp': No such file or directory
+  Window.cpp
+D:\Cheatloverz\Cheatloverz\SDK.h(11,10): fatal error C1083: Cannot open include file: 'Fortnite/bspflags.h': No such file or directory

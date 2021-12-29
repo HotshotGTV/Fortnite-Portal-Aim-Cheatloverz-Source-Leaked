@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Fortnite\CRC32.cpp">
+      <Filter>Fortnite</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Valve\MathFunctions.cpp">
+      <Filter>matrixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Valve\CRC32.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="MD5.cpp">
+      <Filter>modules / additional things</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>modules / additional things</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>gayzhar</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>gayzhar</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>gayzhar</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>core\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineClient.cpp">
+      <Filter>core\game engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Fortnite\MathFunctions.cpp">
+      <Filter>matrixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="Fortnite\Vector.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\Vector2D.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\bspflags.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\ClientRecvProps.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\CRC32.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISpecifications.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>functions\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFuncs.h">
+      <Filter>functions\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Valve\MathFunctions.h">
+      <Filter>matrixes</Filter>
+    </ClInclude>
+    <ClInclude Include="Valve\CRC32.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLMain.h" />
+    <ClInclude Include="fn_glow.h">
+      <Filter>functions\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="nigger.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>modules / additional things</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>modules / additional things</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>modules / additional things</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderInfo.h">
+      <Filter>modules / additional things</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="Valve\Vector2D.h">
+      <Filter>matrixes</Filter>
+    </ClInclude>
+    <ClInclude Include="Valve\Vector.h">
+      <Filter>matrixes</Filter>
+    </ClInclude>
+    <ClInclude Include="VFuncs.h">
+      <Filter>matrixes</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SpamManager.h">
+      <Filter>modules / additional things</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>gayzhar</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>core\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalBaseClient.h">
+      <Filter>core\game engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>core\game engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallClasses.h">
+      <Filter>core\game engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Valve\ClientRecvProps.h">
+      <Filter>core\game engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortnite\MathFunctions.h">
+      <Filter>matrixes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fortnite">
+      <UniqueIdentifier>{15aae757-68d7-4702-a31e-00fdf3ba50b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{2bfa5c4e-2327-473a-b0c2-e1111aaf225b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{47b3d766-61e1-4023-873e-e86b341bdd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions\ESP">
+      <UniqueIdentifier>{d4f054c5-d3c2-4472-b8f0-6686e3d484d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrixes">
+      <UniqueIdentifier>{4ba77a08-f21b-4adb-8d9a-835b1f23a8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{1f3bc7fd-29e3-42a9-87fe-54aaf62b2b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{c9068ec5-9a9e-4056-8743-6562eca1b502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules / additional things">
+      <UniqueIdentifier>{b2524006-a215-4ed4-b839-04042f641207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gayzhar">
+      <UniqueIdentifier>{b321e39b-e8ec-454b-87d3-669f6d26a032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\controls">
+      <UniqueIdentifier>{dba0b153-b327-4c8c-a4e5-8db6e281d589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\game engine">
+      <UniqueIdentifier>{728a37ea-d2a8-467f-95f7-190fcae70923}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
